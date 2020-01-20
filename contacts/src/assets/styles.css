@@ -1,0 +1,15 @@
+input.invalid {
+  background-color: red;
+}
+
+.data-access, 
+.user-data-modify {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.data-access__button, 
+.user-data-modify__button {
+  width: 33%;
+}
