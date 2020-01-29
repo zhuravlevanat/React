@@ -1,0 +1,16 @@
+.contacts__form {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+}
+
+.contacts__form-item {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.contacts__form-button {
+  padding: 10px;
+  background-color: #383635;
+  color: #ffffff; 
+}

@@ -1,0 +1,14 @@
+.contacts__list-header {
+  color: #ffffff;
+  text-align: left;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.contacts__list-button {
+  padding: 8px 20px;
+  border-radius: 2px;
+  color: #383635;
+  font-weight: bold;
+}
