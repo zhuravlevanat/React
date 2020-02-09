@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from '../propTypes';
 
 const TodoListItem = ({onTodoDone, onTodoDelete, onTodoEdit, item}) => {
   return (
@@ -26,6 +27,13 @@ const todoStyle = {
 const buttonContainer = {
   display: 'inline',
   float: 'right',
+}
+
+TodoListItem.propTypes = {
+  onTodoDelete: PropTypes.func.isRequired,
+  onTodoDone: PropTypes.func.isRequired,
+  onTodoEdit: PropTypes.func.isRequired,
+  item: PropTypes.object.isRequired,
 }
 
 export default TodoListItem;

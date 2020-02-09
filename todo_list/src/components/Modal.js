@@ -1,4 +1,5 @@
 import React, {useRef, useEffect} from 'react';
+import PropTypes from '../propTypes';
 
 const Modal = ({onChange, onCancel, onFormSubmit, todo}) => {
   const inputRef = useRef();
@@ -60,6 +61,13 @@ const btnStyle = {
 const btnContainer = {  
   display: 'flex',
   justifyContent: 'space-between',
+}
+
+Modal.propTypes = {
+  onChange: PropTypes.func.isRequired,
+  onCancel: PropTypes.func.isRequired,
+  onFormSubmit: PropTypes.func.isRequired,
+  todo: PropTypes.object.isRequired,
 }
 
 export default Modal;

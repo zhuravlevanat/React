@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from '../propTypes';
 
 const Header = ({onTodoAdd}) => {
   return (
@@ -15,6 +16,10 @@ const addBtnStyle = {
   marginLeft: '20px',
   color: '#272726',
   fontWeight: 'bold',
+}
+
+Header.propTypes = {
+  onTodoAdd: PropTypes.func.isRequired,  
 }
 
 export default Header;

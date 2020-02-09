@@ -23,6 +23,7 @@ const fieldStyle = {
   marginTop: '-50px',
   paddingTop: '50px',
   
+  
 }
 
 BoardField.propTypes = {
