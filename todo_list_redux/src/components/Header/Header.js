@@ -1,9 +1,11 @@
 import React from "react";
 import PropTypes from "../../propTypes";
+import { setTodo } from "../../store/actions";
 
 const Header = ({ changeModalState }) => {
   const onTodoAdd = () => {
     changeModalState(true);
+    setTodo()
   };
   return (
     <div>
